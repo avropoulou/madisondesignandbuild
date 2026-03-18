@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (response.ok) {
                 // Show success message
                 showStep(3);
-                updateFormTitle('Access Granted');
+                updateFormTitle('Access Denied');
                 
                 console.log('Form submitted successfully to Formspree');
                 
